@@ -1,0 +1,41 @@
+.home-container {
+    background-color: #FF8400; /* Replace with your desired background color */
+    min-height: 100vh; /* Ensures it covers the entire viewport height */
+}
+
+.home-container h2 {
+    color: #4F200D; 
+    font-size: 2rem; 
+    font-weight: 600;
+    margin-bottom: 1.5rem; 
+    margin-left: 22px;
+    margin-top: 1rem;
+}
+
+/* Remove underline from links and set hover effect */
+.home-container a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.home-container a:hover h2 {
+    color: #4F200D; 
+    text-decoration: underline; 
+}
+
+/* Scrollbar styling for webkit-based browsers */
+.d-flex.overflow-auto::-webkit-scrollbar {
+    width: 10px; /* Width of the entire scrollbar */
+    height: 10px; /* Height of the horizontal scrollbar */
+}
+
+.d-flex.overflow-auto::-webkit-scrollbar-track {
+    background: #FF8400; /* Color of the scrollbar track */
+    border-radius: 10px; /* Rounded corners on the scrollbar track */
+}
+
+.d-flex.overflow-auto::-webkit-scrollbar-thumb {
+    background-color: #4F200D; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners on the scrollbar thumb */
+    border: 2px solid #F6F1E9; /* Padding around the scrollbar thumb */
+}

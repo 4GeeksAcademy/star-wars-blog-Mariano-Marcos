@@ -1,0 +1,40 @@
+.card {
+    background-color: #FFD93D;
+    color: #4F200D;
+}
+.card .btn-solid {
+    background-color: #4F200D;
+    color: #FFD93D;
+}
+
+.fa-heart:before {
+    color: #4F200D;
+}
+.btn-solid {
+    background-color: #4F200D;
+    color: #FFD93D;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #4F200D;
+    text-decoration: none;
+    background-color: #FFD93D;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.brown-icon {
+    color: #4F200D;
+}
+
+/* .btn {
+    color: #FFD93D;
+} */
+
+.home-container a {
+    text-decoration: none;
+    color: #FFD93D; /* Set your desired link color */
+}
+

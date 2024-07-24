@@ -1,0 +1,47 @@
+.navbar-custom {
+    background-color: #4F200D !important;
+    padding: 0px;
+}
+
+.navbar-brand img {
+    height: 160px;
+    margin-left: 22px;
+    padding: 0%;
+}
+
+.dropdown-toggle {
+    color: #FFD93D;
+    background-color: #4F200D;
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: #4F200D;
+    color: #FF8400;
+}
+
+.dropdown-item {
+    color: #FFD93D;
+}
+
+.dropdown-item:hover {
+    color: #FF8400;
+}
+
+.btn-link {
+    color: #fff;
+}
+
+.btn-link:hover {
+    color: #d9534f;
+}
+
+.badge-light {
+    background-color: #4F200D;
+    color: #FFD93D;
+}
+
+.fa-trash:before {
+    color: #FFD93D;
+}
+
